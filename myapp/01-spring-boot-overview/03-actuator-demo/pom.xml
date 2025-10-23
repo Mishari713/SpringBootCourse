@@ -40,10 +40,10 @@
 			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
 
+		<!-- ADD SUPPORT FOR SPRING BOOT ACTUATOR-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
+			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 
 		<dependency>
@@ -51,6 +51,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 	</dependencies>
 
 	<build>
